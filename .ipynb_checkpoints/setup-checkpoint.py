@@ -1,7 +1,6 @@
-import os
 from setuptools import setup,find_packages
 from typing import List
-HYPEN_E_DOT='-e.'
+HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
     this function will return the list of requirements
@@ -18,6 +17,7 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
    name='GMLP_s',
+   version='0.0.1',
    description='First ML project',
    author='Divyareddy89',
    author_email='divreddy89.78@gmail.com',
